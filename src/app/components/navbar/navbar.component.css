@@ -1,0 +1,19 @@
+.active{
+    background-color: #4527A0;
+}
+/*.navbar{
+    background-color:#7b1fa2;
+   
+}
+.navbar ul li a,.navbar-brand{
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding-left:  10px;
+    padding-right: 10px;
+}*/
+  mat-sidenav {
+    width: 300px;
+    height: 100%;
+  }
+  

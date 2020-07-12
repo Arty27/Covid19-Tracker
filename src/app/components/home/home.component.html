@@ -1,0 +1,47 @@
+<div class="jumbotron text-center bg-white">
+    <h1 class="">Covid19 Tracker</h1>
+    <hr>
+    <div class="row">
+        <div class="card col p-3 m-3">
+            <div class="ui statistic">
+                <div class="label">
+                  Confirmed
+                </div>
+                <div class="value">
+                   {{totalConfirmed | number}}
+                </div>
+              </div>
+        </div>
+        <div class="card col p-3 m-3">
+            <div class="ui statistic">
+                <div class="label">
+                  Active
+                </div>
+                <div class="value">
+                    {{totalActive | number}}
+                </div>
+              </div>
+        </div>
+        <div class="card col p-3 m-3">
+            <div class="ui statistic">
+                <div class="label">
+                  Death
+                </div>
+                <div class="value">
+                    {{totalDeath | number}}
+                </div>
+              </div>
+        </div>
+        <div class="card col p-3 m-3">
+            <div class="ui statistic">
+                <div class="label">
+                  Recovered
+                </div>
+                <div class="value">
+                    {{totalRecovered | number}}
+                </div>
+              </div>
+        </div>
+        
+    </div>
+</div>
